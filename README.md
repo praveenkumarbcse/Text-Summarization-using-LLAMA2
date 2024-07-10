@@ -29,7 +29,7 @@ This repository contains Python scripts for text summarization using AI models p
 
 ### Prerequisites
 
-- Python 3.x installed
+- Python 3.8 and above installed
 - Dependencies listed in `requirements.txt`
 
 ### Setup
@@ -37,8 +37,8 @@ This repository contains Python scripts for text summarization using AI models p
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/text-summarization.git
-   cd text-summarization
+   git clone https://github.com/praveenkumarbcse/Text-Summarization-using-LLAMA2.git
+   cd Text-Summarization-using-LLAMA2
 2. **Install required dependencies:**
 
 	```bash
@@ -55,12 +55,14 @@ This repository contains Python scripts for text summarization using AI models p
 Run the Gemini AI script with:
 
 	```bash
+	cd Gemini
 	python text_summarization_using_gemini_api.py -t <path_to_text_file>   # Summarize text from a file
 	python text_summarization_using_gemini_api.py -i "Your direct input"   # Summarize direct input
 2. **Ollama AI Script**
 Run the Ollama AI script with:
 
 	```bash
+	cd ollama
 	python text_summarization_using_ollama_llama2.py -t <path_to_text_file>   # Summarize text from a file
 	python text_summarization_using_ollama_llama2.py -i "Your direct input"   # Summarize direct input
 Contributing
