@@ -47,4 +47,3 @@ def summarize(textfile, inputtext, model):
 
 if __name__ == '__main__':
     summarize()
-    pass
