@@ -51,17 +51,15 @@ This repository contains Python scripts for text summarization using AI models p
 	For Ollama AI script: No additional environment variables required.
 
 ### Usage
-1. **Gemini AI Script**
-Run the Gemini AI script with:
-
-	```bash
+#### Gemini AI Script
+**Run the Gemini AI script with:**
+	
 	cd Gemini
 	python text_summarization_using_gemini_api.py -t <path_to_text_file>   # Summarize text from a file
 	python text_summarization_using_gemini_api.py -i "Your direct input"   # Summarize direct input
-2. **Ollama AI Script**
-Run the Ollama AI script with:
-
-	```bash
+#### Ollama AI Script
+**Run the Ollama AI script with:**
+	
 	cd ollama
 	python text_summarization_using_ollama_llama2.py -t <path_to_text_file>   # Summarize text from a file
 	python text_summarization_using_ollama_llama2.py -i "Your direct input"   # Summarize direct input
